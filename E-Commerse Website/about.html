@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        // JavaScript code to add animation to the About section
+    const aboutSection = document.querySelector('.about');
+    
+    aboutSection.addEventListener('scroll', () => {
+      const aboutImage = document.querySelector('.about-image img');
+      const aboutText = document.querySelector('.about-text');
+    
+      if (aboutImage.getBoundingClientRect().top < window.innerHeight / 2) {
+        aboutImage.classList.add('animate');
+      } else {
+        aboutImage.classList.remove('animate');
+      }
+    
+      if (aboutText.getBoundingClientRect().top < window.innerHeight / 2) {
+        aboutText.classList.add('animate');
+      } else {
+        aboutText.classList.remove('animate');
+      }
+    });
+       </script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>About-CAKENMORE</title>
+  </head>
+  <body>
+    <div class="top_nav">
+      <div class="container top_nav_container">
+        <div class="top_nav_wrapper">
+          <p class="tap_nav_p">
+            Unforgettable Sweetness You’ll Keep Craving For And Express Free Delivery - OFF 50%!
+          </p>
+          <a href="#" class="top_nav_link">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="container nav_container">
+        <div class="logo-container">
+          <img src="cake-icon.png" alt="Logo" class="logo">
+        </div>
+        <a href="#" class="nav_logo">CAKENMORE</a>
+        <ul class="nav_list">
+          <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+          <li class="nav_item"><a href="about.html" class="nav_link">About</a></li>
+          <li class="nav_item"><a href="contact.html" class="nav_link">Contact</a></li>
+          <li class="nav_item">
+            <a href="sign-up.html" class="nav_link">Sign up</a>
+          </li>
+        </ul>
+        <div class="nav_items">
+          <form action="#" class="nav_form">
+            <input
+              type="text"
+              class="nav_input"
+              placeholder="search here...." />
+            <img src="search.png" alt="" class="nav_search" />
+          </form>
+          <img src="heart.png" alt="" class="nav_heart" />
+          <a href="cart.html">
+            <img src="cart.png" alt="" class="nav_cart" />
+          </a>
+        </div>
+        <span class="hamburger">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </span>
+      </div>
+    </nav>
+    <nav class="mobile_nav mobile_nav_hide">
+      <ul class="mobile_nav_list">
+        <li class="mobile_nav_item">
+          <a href="index.html" class="mobile_nav_link">Home</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="about.html" class="mobile_nav_link">About</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="contact.html" class="mobile_nav_link">Contact</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="sign-up.html" class="mobile_nav_link">Sign Up</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="cart.html" class="mobile_nav_link">Cart</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- about section -->
+
+    <!-- About section HTML structure -->
+<section class="about">
+    <div class="container">
+      <div class="about-header">
+        <h2>About CAKENMORE</h2>
+        <p>Welcome to Sweet Delights, the premier cakeshop in town!</p>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="—Pngtree—chef woman hijab cooking cake_8929142.png" alt="About Image">
+        </div>
+        <div class="about-text">
+            <h1>CAKENMORE</h1>
+            <h2>Chef Anil Rohira</h2>
+            <h2 >Co-Founder-CAKENMORE </h2>
+            <p>Export Corporate Pastry Chef – Felchlin, Switzerland
+            Chef Rohira, a culinary maestro with an impressive 34 years of experience, whose culinary creations are a symphony of flavors that have delighted countless palates. Captivated by the allure of chocolate since his early years, manifested his passion through vivid dreams of swimming in a luxurious pool of this delectable delight. This profound fascination led him to unlock the doors of the pastry kitchen at his esteemed hotel management institution, where he embraced the enticing aromas of the festive season. </p>
+            
+            <p> Starting his illustrious journey at the renowned Culinary Institute of America in New York, Chef Anil Rohira’s unwavering commitment and ardor propelled him to prestigious positions, including Executive Pastry Chef at Chevy Chase Club in Washington, D.C. He showcased his exceptional talent as the leader of Team USA at the Coupe de Monde in Lyon, France, earning accolades for his ‘Best Sugar Showpiece’ and ‘Best Entremet’ creations. Recognized as one of America’s ‘Top 10 Pastry Chefs,’ his expertise and experiences in the field enrich the learning experience at SEP, complemented by his warm and humorous demeanor.</p>
+            
+           <p>Beyond his culinary achievements, Chef Rohira is an avid cricket enthusiast, often engaging students in spirited discussions about the Indian Premier League. His captivating persona transcends boundaries, weaving a tapestry of unrivaled richness and sophistication.</p>
+        </div>
+      </div>
+      <div class="about-team">
+        <h3>Meet Our Team</h3>
+        <ul>
+          <li>
+            <img src="Chef-Allwyn-min.jpg" alt="Team Member 1">
+            <h4>Chef Allwyn Moores</h4>
+            <p>Head Baker</p>
+          </li>
+          <li>
+            <img src="Chef-Anil-min.jpg" alt="Team Member 2">
+            <h4>Chef Anil Rohira</h4>
+            <p>Decorator</p>
+          </li>
+          <li>
+            <img src="Chef-Prathamesh-min-qawwv109n2yo2jxi7huzcbzyb2ge32tiayjxbw95fa.jpg" alt="Team Member 3">
+            <h4>Chef Prathamesh</h4>
+            <p>Cake Designer</p>
+          </li>
+          <li>
+            <img src="safdarazam.png" alt="Team Member 1">
+            <h4>Safdar Azam</h4>
+            <p>Founder</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container footer_container">
+          <div class="footer_item">
+            <a href="#" class="footer_logo">Exclusive</a>
+            <div class="footer_p">
+           ALL SHOWROOM
+            </div>
+          </div>
+          <div class="footer_item">
+            <h3 class="footer_item_titl">Support</h3>
+            <ul class="footer_list">
+              <li class="li footer_list_item">Sasaram,Rohtas,Bihar</li>
+              <li class="li footer_list_item">safdarazam373@gmail.com</li>
+              <li class="li footer_list_item">+91 620727485</li>
+              <li class="li footer_list_item">+91 620727485</li>
+            </ul>
+          </div>
+          <div class="footer_item">
+            <h3 class="footer_item_titl">Support</h3>
+            <ul class="footer_list">
+              <li class="li footer_list_item">Account</li>
+              <li class="li footer_list_item">Login / Register</li>
+              <li class="li footer_list_item">Cart</li>
+              <li class="li footer_list_item">Shop</li>
+            </ul>
+          </div>
+          <div class="footer_item">
+            <h3 class="footer_item_titl">Support</h3>
+            <ul class="footer_list">
+              <li class="li footer_list_item">Privacy policy</li>
+              <li class="li footer_list_item">Terms of use</li>
+              <li class="li footer_list_item">FAQ's</li>
+              <li class="li footer_list_item">Contact</li>
+            </ul>
+          </div>
+        </div>
+      <div class="footer_socialmedia_container">
+          <div class="container footer_socialmedia_container">
+            <p class="socialmedia">
+            <a href="https://www.instagram.com/explore/tags/ecommerce/?hl=en">
+              <img src="instagram.png" alt="">
+              <p></p>
+            </a>
+            <a href="https://www.facebook.com/business/m/marketplace-ecommerce">
+              <img src="icons8-facebook-48.png" alt="">
+              <P></P>
+            </a>
+            <a href="https://business.whatsapp.com/blog/why-e-commerce-needs-whatsapp">
+              <img src="icons8-whatsapp-48.png" alt="" >
+              <P></P>
+            </a>
+            <a href="https:// www.youtube.com/EcommercePlatforms">
+              <img src="youtube.png" alt="" >
+              <P></P> 
+            </a>
+            </p>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="container footer_bottom_container">
+            <p class="footer_copy">
+              Copyright Exclusive 2023. All right reserved
+            </p>
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="app.js"></script>
+    </body>
+  </html>
